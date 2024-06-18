@@ -14,7 +14,7 @@ return {
 	{ "famiu/bufdelete.nvim" },
 
 	-- session
-	-[[
+	--[[
 	{
 		"Shatur/neovim-session-manager",
 		dependencies = { "nvim-lua/plenary.nvim" },
