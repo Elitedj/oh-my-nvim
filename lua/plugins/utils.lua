@@ -48,7 +48,7 @@ return {
 				end,
 			})
 		end,
-	}]],
+	}]]
 	-- zen-mode
 	{
 		"folke/zen-mode.nvim",
