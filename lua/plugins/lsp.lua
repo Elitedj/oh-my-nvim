@@ -31,6 +31,18 @@ return {
 				-- ["rust_analyzer"] = function ()
 				--     require("rust-tools").setup {}
 				-- end
+				["clangd"] = function()
+					require("lspconfig").clangd.setup {
+						cmd = {
+							"clangd",
+							"--background-index",
+							"--query-driver=/usr/bin/clang++",
+							"--clang-tidy",
+							"--all-scopes-completion",
+							"--completion-style=detailed",
+						}
+					}
+				end
 			})
 		end,
 	},
