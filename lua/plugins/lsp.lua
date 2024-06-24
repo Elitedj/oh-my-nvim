@@ -40,6 +40,7 @@ return {
 							"--clang-tidy",
 							"--all-scopes-completion",
 							"--completion-style=detailed",
+							"-DLEVELDB_PLATFORM_POSIX",
 						}
 					}
 				end
