@@ -40,6 +40,10 @@ return {
 							"--clang-tidy",
 							"--all-scopes-completion",
 							"--completion-style=detailed",
+							"--header-insertion=iwyu",      
+							"--pch-storage=disk", -- 如果内存够大可以关闭这个选项
+							"--log=error",
+							"--j=5",
 						}
 					}
 				end
